@@ -14,6 +14,7 @@ header {
     min-height: 70px;
     margin: 0 auto;
 
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -52,7 +53,7 @@ nav a:hover {
     padding: 30px;
 
     position: relative;
-    z-index: 1;
+    z-index: 1 ;
     
 }
 .city img {
@@ -79,22 +80,17 @@ nav a:hover {
 li {
     margin-top: 10px;
 }
-h1 {
-    font-size: 2vw;
-}
+
 
 .sites {
-    font-size: 1.8vw;
-    padding: 10px 10px;
+    font-size: 1.2vw;
+    padding: 0px 10px;
     text-decoration: none;
     color: black;
 }
 .sites:hover {
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+    color: blue;
     transition: .2s linear;
+    text-decoration: underline;
 }
+
